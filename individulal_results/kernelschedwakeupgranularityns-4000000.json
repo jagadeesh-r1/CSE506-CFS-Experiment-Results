@@ -1,0 +1,489 @@
+{
+    "title": "sched_wakeup_granularity_ns_4000000",
+    "last_modified": "2023-05-07 10:44:15",
+    "description": "increased wakeup granularity from 3000000 to 4000000",
+    "systems": {
+        "4millisecond_wk_gran": {
+            "identifier": "4millisecond_wk_gran",
+            "hardware": {
+                "Processor": "Intel Core i5-1145G7 (4 Cores)",
+                "Motherboard": "Intel 440BX (6.00 BIOS)",
+                "Chipset": "Intel 440BX\/ZX\/DX",
+                "Memory": "8GB",
+                "Disk": "107GB VMware Virtual S",
+                "Graphics": "VMware SVGA II",
+                "Audio": "Ensoniq ES1371\/ES1373",
+                "Network": "Intel 82545EM"
+            },
+            "software": {
+                "OS": "Ubuntu 18.04",
+                "Kernel": "5.4.0-148-generic (x86_64)",
+                "Desktop": "GNOME Shell 3.28.4",
+                "Display Server": "X Server 1.20.8",
+                "Compiler": "GCC 7.5.0",
+                "File-System": "ext4",
+                "Screen Resolution": "1718x878",
+                "System Layer": "VMware"
+            },
+            "user": "a",
+            "timestamp": "2023-05-05 23:53:35",
+            "client_version": "10.8.4",
+            "data": {
+                "compiler-configuration": "--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v",
+                "cpu-microcode": "0xffffffff",
+                "kernel-extra-details": "Transparent Huge Pages: madvise",
+                "security": "itlb_multihit: Not affected + l1tf: Mitigation of PTE Inversion + mds: Vulnerable: Clear buffers attempted no microcode; SMT Host state unknown + meltdown: Mitigation of PTI + mmio_stale_data: Not affected + retbleed: Mitigation of IBRS + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of IBRS IBPB: conditional RSB filling PBRSB-eIBRS: Not affected + srbds: Not affected + tsx_async_abort: Not affected"
+            }
+        },
+        "default_value_run: Ran with out-of-box config #1": {
+            "identifier": "default_value_run: Ran with out-of-box config #1",
+            "hardware": {
+                "Processor": "Intel Core i5-1145G7 (4 Cores)",
+                "Motherboard": "Intel 440BX (6.00 BIOS)",
+                "Chipset": "Intel 440BX\/ZX\/DX",
+                "Memory": "8GB",
+                "Disk": "107GB VMware Virtual S",
+                "Graphics": "VMware SVGA II",
+                "Audio": "Ensoniq ES1371\/ES1373",
+                "Network": "Intel 82545EM"
+            },
+            "software": {
+                "OS": "Ubuntu 18.04",
+                "Kernel": "5.4.0-148-generic (x86_64)",
+                "Desktop": "GNOME Shell 3.28.4",
+                "Display Server": "X Server 1.20.8",
+                "Compiler": "GCC 7.5.0",
+                "File-System": "ext4",
+                "Screen Resolution": "1718x878",
+                "System Layer": "VMware"
+            },
+            "user": "a",
+            "timestamp": "2023-05-05 22:20:15",
+            "client_version": "10.8.4",
+            "data": {
+                "compiler-configuration": "--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v",
+                "cpu-microcode": "0xffffffff",
+                "kernel-extra-details": "Transparent Huge Pages: madvise",
+                "security": "itlb_multihit: Not affected + l1tf: Mitigation of PTE Inversion + mds: Vulnerable: Clear buffers attempted no microcode; SMT Host state unknown + meltdown: Mitigation of PTI + mmio_stale_data: Not affected + retbleed: Mitigation of IBRS + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of IBRS IBPB: conditional RSB filling PBRSB-eIBRS: Not affected + srbds: Not affected + tsx_async_abort: Not affected"
+            }
+        },
+        "default_value_run: Ran with out-of-box config #2": {
+            "identifier": "default_value_run: Ran with out-of-box config #2",
+            "hardware": {
+                "Processor": "Intel Core i5-1145G7 (4 Cores)",
+                "Motherboard": "Intel 440BX (6.00 BIOS)",
+                "Chipset": "Intel 440BX\/ZX\/DX",
+                "Memory": "8GB",
+                "Disk": "107GB VMware Virtual S",
+                "Graphics": "VMware SVGA II",
+                "Audio": "Ensoniq ES1371\/ES1373",
+                "Network": "Intel 82545EM"
+            },
+            "software": {
+                "OS": "Ubuntu 18.04",
+                "Kernel": "5.4.0-148-generic (x86_64)",
+                "Desktop": "GNOME Shell 3.28.4",
+                "Display Server": "X Server 1.20.8",
+                "Compiler": "GCC 7.5.0",
+                "File-System": "ext4",
+                "Screen Resolution": "1718x878",
+                "System Layer": "VMware"
+            },
+            "user": "a",
+            "timestamp": "2023-05-05 22:20:15",
+            "client_version": "10.8.4",
+            "data": {
+                "compiler-configuration": "--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v",
+                "cpu-microcode": "0xffffffff",
+                "kernel-extra-details": "Transparent Huge Pages: madvise",
+                "security": "itlb_multihit: Not affected + l1tf: Mitigation of PTE Inversion + mds: Vulnerable: Clear buffers attempted no microcode; SMT Host state unknown + meltdown: Mitigation of PTI + mmio_stale_data: Not affected + retbleed: Mitigation of IBRS + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of IBRS IBPB: conditional RSB filling PBRSB-eIBRS: Not affected + srbds: Not affected + tsx_async_abort: Not affected"
+            }
+        },
+        "sched_wakeup_granularity_ns_1000000: 1millisecond_wk_gran #1": {
+            "identifier": "sched_wakeup_granularity_ns_1000000: 1millisecond_wk_gran #1",
+            "hardware": {
+                "Processor": "Intel Core i5-1145G7 (4 Cores)",
+                "Motherboard": "Intel 440BX (6.00 BIOS)",
+                "Chipset": "Intel 440BX\/ZX\/DX",
+                "Memory": "8GB",
+                "Disk": "107GB VMware Virtual S",
+                "Graphics": "VMware SVGA II",
+                "Audio": "Ensoniq ES1371\/ES1373",
+                "Network": "Intel 82545EM"
+            },
+            "software": {
+                "OS": "Ubuntu 18.04",
+                "Kernel": "5.4.0-147-generic (x86_64)",
+                "Desktop": "GNOME Shell 3.28.4",
+                "Display Server": "X Server 1.20.8",
+                "Compiler": "GCC 7.5.0",
+                "File-System": "ext4",
+                "Screen Resolution": "1718x878",
+                "System Layer": "VMware"
+            },
+            "user": "a",
+            "timestamp": "2023-05-05 02:37:22",
+            "client_version": "10.8.4",
+            "data": {
+                "compiler-configuration": "--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v",
+                "cpu-microcode": "0xffffffff",
+                "kernel-extra-details": "Transparent Huge Pages: madvise",
+                "security": "itlb_multihit: Not affected + l1tf: Mitigation of PTE Inversion + mds: Vulnerable: Clear buffers attempted no microcode; SMT Host state unknown + meltdown: Mitigation of PTI + mmio_stale_data: Not affected + retbleed: Mitigation of IBRS + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of IBRS IBPB: conditional RSB filling PBRSB-eIBRS: Not affected + srbds: Not affected + tsx_async_abort: Not affected"
+            }
+        },
+        "sched_wakeup_granularity_ns_1000000: 1millisecond_wk_gran #2": {
+            "identifier": "sched_wakeup_granularity_ns_1000000: 1millisecond_wk_gran #2",
+            "hardware": {
+                "Processor": "Intel Core i5-1145G7 (4 Cores)",
+                "Motherboard": "Intel 440BX (6.00 BIOS)",
+                "Chipset": "Intel 440BX\/ZX\/DX",
+                "Memory": "8GB",
+                "Disk": "107GB VMware Virtual S",
+                "Graphics": "VMware SVGA II",
+                "Audio": "Ensoniq ES1371\/ES1373",
+                "Network": "Intel 82545EM"
+            },
+            "software": {
+                "OS": "Ubuntu 18.04",
+                "Kernel": "5.4.0-147-generic (x86_64)",
+                "Desktop": "GNOME Shell 3.28.4",
+                "Display Server": "X Server 1.20.8",
+                "Compiler": "GCC 7.5.0",
+                "File-System": "ext4",
+                "Screen Resolution": "1718x878",
+                "System Layer": "VMware"
+            },
+            "user": "a",
+            "timestamp": "2023-05-05 02:37:22",
+            "client_version": "10.8.4",
+            "data": {
+                "compiler-configuration": "--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v",
+                "cpu-microcode": "0xffffffff",
+                "kernel-extra-details": "Transparent Huge Pages: madvise",
+                "security": "itlb_multihit: Not affected + l1tf: Mitigation of PTE Inversion + mds: Vulnerable: Clear buffers attempted no microcode; SMT Host state unknown + meltdown: Mitigation of PTI + mmio_stale_data: Not affected + retbleed: Mitigation of IBRS + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of IBRS IBPB: conditional RSB filling PBRSB-eIBRS: Not affected + srbds: Not affected + tsx_async_abort: Not affected"
+            }
+        },
+        "sched_wakeup_granularity_ns_2000000: 2millisecond_wk_gran #1": {
+            "identifier": "sched_wakeup_granularity_ns_2000000: 2millisecond_wk_gran #1",
+            "hardware": {
+                "Processor": "Intel Core i5-1145G7 (4 Cores)",
+                "Motherboard": "Intel 440BX (6.00 BIOS)",
+                "Chipset": "Intel 440BX\/ZX\/DX",
+                "Memory": "8GB",
+                "Disk": "107GB VMware Virtual S",
+                "Graphics": "VMware SVGA II",
+                "Audio": "Ensoniq ES1371\/ES1373",
+                "Network": "Intel 82545EM"
+            },
+            "software": {
+                "OS": "Ubuntu 18.04",
+                "Kernel": "5.4.0-148-generic (x86_64)",
+                "Desktop": "GNOME Shell 3.28.4",
+                "Display Server": "X Server 1.20.8",
+                "Compiler": "GCC 7.5.0",
+                "File-System": "ext4",
+                "Screen Resolution": "1718x878",
+                "System Layer": "VMware"
+            },
+            "user": "a",
+            "timestamp": "2023-05-05 21:46:35",
+            "client_version": "10.8.4",
+            "data": {
+                "compiler-configuration": "--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v",
+                "cpu-microcode": "0xffffffff",
+                "kernel-extra-details": "Transparent Huge Pages: madvise",
+                "security": "itlb_multihit: Not affected + l1tf: Mitigation of PTE Inversion + mds: Vulnerable: Clear buffers attempted no microcode; SMT Host state unknown + meltdown: Mitigation of PTI + mmio_stale_data: Not affected + retbleed: Mitigation of IBRS + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of IBRS IBPB: conditional RSB filling PBRSB-eIBRS: Not affected + srbds: Not affected + tsx_async_abort: Not affected"
+            }
+        },
+        "sched_wakeup_granularity_ns_2000000: 2millisecond_wk_gran #2": {
+            "identifier": "sched_wakeup_granularity_ns_2000000: 2millisecond_wk_gran #2",
+            "hardware": {
+                "Processor": "Intel Core i5-1145G7 (4 Cores)",
+                "Motherboard": "Intel 440BX (6.00 BIOS)",
+                "Chipset": "Intel 440BX\/ZX\/DX",
+                "Memory": "8GB",
+                "Disk": "107GB VMware Virtual S",
+                "Graphics": "VMware SVGA II",
+                "Audio": "Ensoniq ES1371\/ES1373",
+                "Network": "Intel 82545EM"
+            },
+            "software": {
+                "OS": "Ubuntu 18.04",
+                "Kernel": "5.4.0-148-generic (x86_64)",
+                "Desktop": "GNOME Shell 3.28.4",
+                "Display Server": "X Server 1.20.8",
+                "Compiler": "GCC 7.5.0",
+                "File-System": "ext4",
+                "Screen Resolution": "1718x878",
+                "System Layer": "VMware"
+            },
+            "user": "a",
+            "timestamp": "2023-05-05 21:46:35",
+            "client_version": "10.8.4",
+            "data": {
+                "compiler-configuration": "--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v",
+                "cpu-microcode": "0xffffffff",
+                "kernel-extra-details": "Transparent Huge Pages: madvise",
+                "security": "itlb_multihit: Not affected + l1tf: Mitigation of PTE Inversion + mds: Vulnerable: Clear buffers attempted no microcode; SMT Host state unknown + meltdown: Mitigation of PTI + mmio_stale_data: Not affected + retbleed: Mitigation of IBRS + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of IBRS IBPB: conditional RSB filling PBRSB-eIBRS: Not affected + srbds: Not affected + tsx_async_abort: Not affected"
+            }
+        }
+    },
+    "results": {
+        "2899c6f5f06e127b7db67b49b06b752093683c76": {
+            "identifier": "pts\/apache-3.0.0",
+            "title": "Apache HTTP Server",
+            "app_version": "2.4.56",
+            "arguments": "-c 4",
+            "description": "Concurrent Requests: 4",
+            "scale": "Requests Per Second",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4millisecond_wk_gran": {
+                    "value": 8730.92,
+                    "raw_values": [
+                        8873.44,
+                        8587.01,
+                        8361.48,
+                        9058.66,
+                        9112.01,
+                        8510.8,
+                        7350.75,
+                        8920.3,
+                        9020.64,
+                        8979.68,
+                        8923.38,
+                        9072.86
+                    ],
+                    "test_run_times": [
+                        90.11,
+                        90.05,
+                        90.1,
+                        90.08,
+                        90.07,
+                        90.12,
+                        90.09,
+                        90.11,
+                        90.05,
+                        90.08,
+                        90.08,
+                        90.1
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-lluajit-5.1 -lm -lssl -lcrypto -lpthread -ldl -std=c99 -O2"
+                        }
+                    }
+                }
+            }
+        },
+        "44f59b1a4355f5774f376b63b2dd226eca3c1b99": {
+            "identifier": "pts\/apache-3.0.0",
+            "title": "Apache HTTP Server",
+            "app_version": "2.4.56",
+            "arguments": "-c 20",
+            "description": "Concurrent Requests: 20",
+            "scale": "Requests Per Second",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4millisecond_wk_gran": {
+                    "value": 10364.87,
+                    "raw_values": [
+                        10682.42,
+                        10409.33,
+                        10057.2,
+                        10278.24,
+                        10397.18
+                    ],
+                    "test_run_times": [
+                        90.1,
+                        90.11,
+                        90.08,
+                        90.11,
+                        90.07
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-lluajit-5.1 -lm -lssl -lcrypto -lpthread -ldl -std=c99 -O2"
+                        }
+                    }
+                }
+            }
+        },
+        "432032dd33222c9ba550d792e05585a2c8117ced": {
+            "identifier": "pts\/apache-3.0.0",
+            "title": "Apache HTTP Server",
+            "app_version": "2.4.56",
+            "arguments": "-c 100",
+            "description": "Concurrent Requests: 100",
+            "scale": "Requests Per Second",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4millisecond_wk_gran": {
+                    "value": 12250.49,
+                    "raw_values": [
+                        12980.7,
+                        11631.27,
+                        13113.38,
+                        8126.4,
+                        9163.14,
+                        12001.05,
+                        12146.09,
+                        12266.74,
+                        13549.68,
+                        13636.72,
+                        14323.85,
+                        14066.8
+                    ],
+                    "test_run_times": [
+                        90.08,
+                        90.12,
+                        90.1,
+                        90.1,
+                        90.11,
+                        90.11,
+                        90.06,
+                        90.09,
+                        90.12,
+                        90.12,
+                        90.07,
+                        90.11
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-lluajit-5.1 -lm -lssl -lcrypto -lpthread -ldl -std=c99 -O2"
+                        }
+                    }
+                }
+            }
+        },
+        "4113492f48e18cb6952dc193f97f9e83ba89a8e3": {
+            "identifier": "pts\/apache-3.0.0",
+            "title": "Apache HTTP Server",
+            "app_version": "2.4.56",
+            "arguments": "-c 200",
+            "description": "Concurrent Requests: 200",
+            "scale": "Requests Per Second",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4millisecond_wk_gran": {
+                    "value": 13650.24,
+                    "raw_values": [
+                        13317.33,
+                        13831.42,
+                        13801.97
+                    ],
+                    "test_run_times": [
+                        90.07,
+                        90.12,
+                        90.09
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-lluajit-5.1 -lm -lssl -lcrypto -lpthread -ldl -std=c99 -O2"
+                        }
+                    }
+                }
+            }
+        },
+        "a83b0acd4623b6d125ec930a760b10cbd0327ecd": {
+            "identifier": "pts\/apache-3.0.0",
+            "title": "Apache HTTP Server",
+            "app_version": "2.4.56",
+            "arguments": "-c 500",
+            "description": "Concurrent Requests: 500",
+            "scale": "Requests Per Second",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4millisecond_wk_gran": {
+                    "value": 12796.52,
+                    "raw_values": [
+                        12831.16,
+                        12722.83,
+                        12835.57
+                    ],
+                    "test_run_times": [
+                        90.13,
+                        90.09,
+                        90.06
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-lluajit-5.1 -lm -lssl -lcrypto -lpthread -ldl -std=c99 -O2"
+                        }
+                    }
+                }
+            }
+        },
+        "7237a318709abf06dcd745ef3460d3a717e7ccfe": {
+            "identifier": "pts\/apache-3.0.0",
+            "title": "Apache HTTP Server",
+            "app_version": "2.4.56",
+            "arguments": "-c 1000",
+            "description": "Concurrent Requests: 1000",
+            "scale": "Requests Per Second",
+            "proportion": "HIB",
+            "display_format": "BAR_GRAPH",
+            "results": {
+                "4millisecond_wk_gran": {
+                    "value": 12584.57,
+                    "raw_values": [
+                        12465.38,
+                        14278.86,
+                        14286.99,
+                        14216.96,
+                        11575.49,
+                        11707.26,
+                        12404.57,
+                        12226.89,
+                        12365.11,
+                        12287.31,
+                        12194.37,
+                        12339.8,
+                        12502.76,
+                        12242.82,
+                        11673.98
+                    ],
+                    "test_run_times": [
+                        90.15,
+                        90.14,
+                        90.14,
+                        90.14,
+                        90.13,
+                        90.15,
+                        90.21,
+                        90.12,
+                        90.13,
+                        90.14,
+                        90.15,
+                        90.14,
+                        90.13,
+                        90.17,
+                        90.16
+                    ],
+                    "details": {
+                        "compiler-options": {
+                            "compiler-type": "CC",
+                            "compiler": "gcc",
+                            "compiler-options": "-lluajit-5.1 -lm -lssl -lcrypto -lpthread -ldl -std=c99 -O2"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
